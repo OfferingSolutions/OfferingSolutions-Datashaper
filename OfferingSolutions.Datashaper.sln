@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferingSolutions.Datashaper", "OfferingSolutions.Datashaper\OfferingSolutions.Datashaper.csproj", "{7ACBE146-54FC-4A02-B0C2-3E06C47FC6DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataShaperTestConsole", "DataShaperTestConsole\DataShaperTestConsole.csproj", "{3769E59C-49FC-4D26-80D8-72A717A3667B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferingSolutions.Datashaper.Tests", "OfferingSolutions.Datashaper.Tests\OfferingSolutions.Datashaper.Tests.csproj", "{82A25247-BEA4-4077-9ED3-43075E338684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferingSolutions.Datashaper.Share", "OfferingSolutions.Datashaper.Share\OfferingSolutions.Datashaper.Share.csproj", "{346E68FE-2F4F-40E7-AD00-10DBDA0AE017}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://fabiangosebrink.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OfferingSolutions.Datashaper\\OfferingSolutions.Datashaper.csproj
+		SccProjectName1 = OfferingSolutions.Datashaper
+		SccLocalPath1 = OfferingSolutions.Datashaper
+		SccProjectUniqueName2 = DataShaperTestConsole\\DataShaperTestConsole.csproj
+		SccProjectName2 = DataShaperTestConsole
+		SccLocalPath2 = DataShaperTestConsole
+		SccProjectUniqueName3 = OfferingSolutions.Datashaper.Tests\\OfferingSolutions.Datashaper.Tests.csproj
+		SccProjectName3 = OfferingSolutions.Datashaper.Tests
+		SccLocalPath3 = OfferingSolutions.Datashaper.Tests
+		SccProjectUniqueName4 = OfferingSolutions.Datashaper.Share\\OfferingSolutions.Datashaper.Share.csproj
+		SccProjectName4 = OfferingSolutions.Datashaper.Share
+		SccLocalPath4 = OfferingSolutions.Datashaper.Share
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ACBE146-54FC-4A02-B0C2-3E06C47FC6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACBE146-54FC-4A02-B0C2-3E06C47FC6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACBE146-54FC-4A02-B0C2-3E06C47FC6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACBE146-54FC-4A02-B0C2-3E06C47FC6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3769E59C-49FC-4D26-80D8-72A717A3667B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3769E59C-49FC-4D26-80D8-72A717A3667B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3769E59C-49FC-4D26-80D8-72A717A3667B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3769E59C-49FC-4D26-80D8-72A717A3667B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A25247-BEA4-4077-9ED3-43075E338684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A25247-BEA4-4077-9ED3-43075E338684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A25247-BEA4-4077-9ED3-43075E338684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A25247-BEA4-4077-9ED3-43075E338684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{346E68FE-2F4F-40E7-AD00-10DBDA0AE017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346E68FE-2F4F-40E7-AD00-10DBDA0AE017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346E68FE-2F4F-40E7-AD00-10DBDA0AE017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346E68FE-2F4F-40E7-AD00-10DBDA0AE017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
