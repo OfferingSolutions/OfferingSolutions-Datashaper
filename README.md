@@ -2,18 +2,14 @@
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/OfferingSolutions.DataShaper.svg)](https://www.nuget.org/packages/OfferingSolutions.DataShaper/) [![NuGet Version](https://img.shields.io/nuget/v/OfferingSolutions.DataShaper.svg)](https://www.nuget.org/packages/OfferingSolutions.DataShaper/)
 
-This component was inspired by Kevin Dockx and his Pluralsight course 
-
-http://www.pluralsight.com/courses/building-securing-restful-api-aspdotnet
-
 Gives you the possibility to strip the data you want to send based on the query of the client using DTOs.
 
-##Nuget
+## Nuget
 The OfferingSolutions.Datashaper is available on Nuget:
 
 http://www.nuget.org/packages/OfferingSolutions.DataShaper/
 
-##Demos
+## Demos
 http://www.fabian-gosebrink.de/Projects/Datashaper
 https://github.com/FabianGosebrink/OfferingSolutions-DatashaperDemo
 
@@ -53,8 +49,9 @@ public IHttpActionResult Get(string fields = null)
 
 Now you can shape your data based on the fields you send with your request.
 
+<pre>
 GET /api/test?fields=Id,Title,Date<br/>
 GET /api/test?fields=Id,Title,Date,ChildClasses.Description,ChildClasses.Id
-...
+</pre>
 
 Have fun!
